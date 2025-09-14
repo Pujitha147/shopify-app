@@ -2,7 +2,7 @@ const express = require("express");
 const authenticateToken = require("../middleware/auth");
 
 // Sequelize models
-const Customer = require("../models/Customer");
+const Customer = require("../models/customer");
 const Product = require("../models/Product");
 const Order = require("../models/Order");
 

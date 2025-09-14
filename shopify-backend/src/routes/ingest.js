@@ -1,9 +1,9 @@
 const express = require("express");
 const { fetchCustomers, fetchProducts, fetchOrders } = require("../services/shopifyService");
-const Customer = require("../models/Customer");
+const Customer = require("../models/customer");
 const Product = require("../models/Product");
 const Order = require("../models/Order");
-const authenticate = require("../middlewares/authMiddleware");
+const authenticate = require("../middleware/authMiddleware");
 
 const router = express.Router();
 
