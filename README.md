@@ -114,3 +114,5 @@ No pagination handling yet for very large datasets.
 Authentication is JWT-based, but role-based access control is not implemented.
 
 DB migrations must be handled manually before production.
+
+https://docs.google.com/document/d/1shUe_b3kaqtKRz2urC4-HHiD6idF0A2dT-COlEDnGJM/edit?usp=sharing
